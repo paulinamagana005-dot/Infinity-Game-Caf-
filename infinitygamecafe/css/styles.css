@@ -1,0 +1,166 @@
+/* ===== Estilo general ===== */
+body {
+    font-family: 'Segoe UI', Arial, sans-serif;
+    background-color: #121212; /* fondo oscuro gamer */
+    color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+/* ===== Encabezado ===== */
+header {
+    background-color: #1f1f1f;
+    padding: 20px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.5); /* regla avanzada */
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #00ffcc;
+    margin: 0;
+}
+
+/* ===== Menú de navegación ===== */
+nav {
+    background-color: #1b1b1b;
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 2px solid #00ffcc;
+}
+
+nav a {
+    color: #f0f0f0;
+    text-decoration: none;
+    margin: 0 15px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav a:hover {
+    color: #00ffcc;
+}
+
+/* ===== Secciones ===== */
+section {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #1f1f1f;
+    border-radius: 10px; /* regla avanzada */
+    box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+}
+
+/* ===== Títulos de secciones ===== */
+h2 {
+    color: #00ffcc;
+    border-bottom: 2px solid #00ffcc;
+    padding-bottom: 5px;
+}
+
+/* ===== Listas de servicios ===== */
+.lista-servicios li {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.lista-servicios img {
+    display: block;
+    margin-top: 10px;
+    border-radius: 10px; /* regla avanzada */
+}
+
+/* ===== Botones ===== */
+button {
+    background-color: #00ffcc;
+    color: #1f1f1f;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    border-radius: 10px; /* regla avanzada */
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+button:hover {
+    background-color: #00cc99;
+    transform: scale(1.05);
+}
+
+/* ===== Tablas ===== */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #f0f0f0;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #00ffcc;
+    color: #1f1f1f;
+}
+
+/* ===== Imágenes de novedades ===== */
+section#Novedades img {
+    margin: 10px;
+    border-radius: 10px;
+    max-width: 200px;
+}
+
+/* ===== Videos y audio ===== */
+video, audio {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 450px;
+}
+
+/* ===== Formularios ===== */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+input[type="submit"] {
+    background-color: #00ffcc;
+    color: #1f1f1f;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #00cc99;
+}
+
+/* ===== Preguntas frecuentes ===== */
+details {
+    margin-bottom: 10px;
+    padding: 10px;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+}
+
+/* ===== Pie de página ===== */
+footer {
+    text-align: center;
+    padding: 15px 0;
+    background-color: #1b1b1b;
+    border-top: 2px solid #00ffcc;
+}
